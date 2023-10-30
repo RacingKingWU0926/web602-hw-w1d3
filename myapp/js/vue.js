@@ -1,22 +1,20 @@
-//Header Comp
+// Header Comp
 Vue.component('headcomp',{
     template : '<span>Food Blog</span>'
 });
 var head = new Vue({
     el : 'header'
 });
-//Form Title Comp
-Vue.component('formtitle',{
-    template : '<span>register form</span>'
-});
-//Blog Title Comp
+
+// Blog Title Comp
 Vue.component('blogtitle',{
     template : '<span>comments</span>'
 });
 var btitle = new Vue({
     el : 'h2'
 });
-//Blog Posts Instance
+
+// Posts
 var blogs = new Vue ({
     el : '#blogposts',
     data : {
